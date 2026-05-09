@@ -1,0 +1,14 @@
+# General Project Status — Single Source of Truth
+# 采购数据处理项目状态
+
+projects:
+  采购数据处理:
+    status: 规划中
+    archive: keep
+    owner: claude
+    type: 数据处理工具
+    repo: 内置 Git
+    docs: "Jeff1993/采购数据处理/"
+    code_path: "C:\\Users\\lk\\Documents\\Jeff1993\\采购数据处理"
+    last_handoff: "handoff.md"
+    last_update: "2026-05-09"
