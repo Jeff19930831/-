@@ -1,14 +1,21 @@
-# General Project Status — Single Source of Truth
-# 采购数据处理项目状态
+# 采购数据处理 — 大项目（总管）状态
+# 单一真相源以根 Jeff1993/.project-status.yaml 为准，本文件为本地派生视图
 
 projects:
   采购数据处理:
-    status: 规划中
+    status: 运行中
     archive: keep
     owner: claude
-    type: 数据处理工具
+    type: 大项目（采购数据处理总管，下辖多个子项目）
     repo: 内置 Git
     docs: "Jeff1993/采购数据处理/"
-    code_path: "C:\\Users\\lk\\Documents\\Jeff1993\\采购数据处理"
+    code_path: "—"          # 父项目本身无代码，代码在各子项目
     last_handoff: "handoff.md"
-    last_update: "2026-05-09"
+    last_update: "2026-07-01"
+    subprojects:
+      季度图表总结:
+        alias: procurement-charts
+        status: 已完成
+        repo: "[procurement-charts](https://github.com/Jeff19930831/procurement-charts)"
+        code_path: "D:\\workspace\\procurement-charts"
+        docs: "Jeff1993/procurement-charts/"
